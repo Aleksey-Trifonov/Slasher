@@ -1,0 +1,2 @@
+D:\Projects\Slasher\Slasher\Intermediate\Build\Win64\UE4Editor\Development\Slasher\Definitions.Slasher.h
+D:\Projects\Slasher\Slasher\Source\Slasher\Slasher.h

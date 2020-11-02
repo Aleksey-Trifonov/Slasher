@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Projects\\Slasher\\Slasher\\Source\\Slasher\\Slasher.Build.cs",
+		"D:\\Projects\\Slasher\\Slasher\\Source\\Slasher.Target.cs",
+		"D:\\Projects\\Slasher\\Slasher\\Source\\SlasherEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.3"
+}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Slasher",
+			"Path": "D:\\Projects\\Slasher\\Slasher\\Source\\Slasher.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SlasherEditor",
+			"Path": "D:\\Projects\\Slasher\\Slasher\\Source\\SlasherEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
