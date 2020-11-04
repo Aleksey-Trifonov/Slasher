@@ -1,0 +1,5 @@
+D:\Projects\Slasher\Slasher\Intermediate\Build\Win64\UE4Editor\Development\Slasher\Definitions.Slasher.h
+D:\Projects\Slasher\Slasher\Source\Slasher\PickUp.h
+D:\Projects\Slasher\Slasher\Source\Slasher\Item.h
+D:\Projects\Slasher\Slasher\Intermediate\Build\Win64\UE4Editor\Inc\Slasher\Item.generated.h
+D:\Projects\Slasher\Slasher\Intermediate\Build\Win64\UE4Editor\Inc\Slasher\PickUp.generated.h

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Slasher.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A51906D8-E1CF-4AE8-87AE-D8AE279CCA37}</UniqueIdentifier>
+      <UniqueIdentifier>{9DDC7B8B-03FA-4BD3-A12A-FA5492A4824F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Slasher.Target.cs">
       <Filter>Source</Filter>
@@ -11,10 +11,9 @@
     <None Include="..\..\Source\SlasherEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
-    <None Include="..\..\MCO_Mocap_Basics.png" />
     <None Include="..\..\Slasher.png" />
     <Filter Include="Config">
-      <UniqueIdentifier>{DE6A6A3D-C35F-4837-B075-78C41E8BB7B2}</UniqueIdentifier>
+      <UniqueIdentifier>{5C9D357C-3959-4C9B-8483-3D2984E93B47}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultDeviceProfiles.ini">
       <Filter>Config</Filter>
@@ -35,7 +34,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Slasher">
-      <UniqueIdentifier>{2E45FBC4-8A1A-476E-9207-F9C2FDD1ACA5}</UniqueIdentifier>
+      <UniqueIdentifier>{4DA23353-CC73-47CE-A1A2-799CC3E11077}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Slasher\Critter.cpp">
       <Filter>Source\Slasher</Filter>
@@ -43,10 +42,28 @@
     <ClInclude Include="..\..\Source\Slasher\Critter.h">
       <Filter>Source\Slasher</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Slasher\Explosive.cpp">
+      <Filter>Source\Slasher</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Slasher\Explosive.h">
+      <Filter>Source\Slasher</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Slasher\FloatingPlatform.cpp">
+      <Filter>Source\Slasher</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Slasher\FloatingPlatform.h">
+      <Filter>Source\Slasher</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Slasher\FloorSwitch.cpp">
       <Filter>Source\Slasher</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Slasher\FloorSwitch.h">
+      <Filter>Source\Slasher</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Slasher\Item.cpp">
+      <Filter>Source\Slasher</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Slasher\Item.h">
       <Filter>Source\Slasher</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Slasher\Main.cpp">
@@ -59,6 +76,12 @@
       <Filter>Source\Slasher</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Slasher\MainAnimInstance.h">
+      <Filter>Source\Slasher</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Slasher\PickUp.cpp">
+      <Filter>Source\Slasher</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Slasher\PickUp.h">
       <Filter>Source\Slasher</Filter>
     </ClInclude>
     <None Include="..\..\Source\Slasher\Slasher.Build.cs">
