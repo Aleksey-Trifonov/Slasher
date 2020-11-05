@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Slasher.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9DDC7B8B-03FA-4BD3-A12A-FA5492A4824F}</UniqueIdentifier>
+      <UniqueIdentifier>{4445F5C3-000B-4B9C-946E-2C7334912A50}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Slasher.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\Slasher.png" />
     <Filter Include="Config">
-      <UniqueIdentifier>{5C9D357C-3959-4C9B-8483-3D2984E93B47}</UniqueIdentifier>
+      <UniqueIdentifier>{60682C74-D045-4B21-AA4E-CB19CE5783EE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultDeviceProfiles.ini">
       <Filter>Config</Filter>
@@ -34,7 +34,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Slasher">
-      <UniqueIdentifier>{4DA23353-CC73-47CE-A1A2-799CC3E11077}</UniqueIdentifier>
+      <UniqueIdentifier>{7FAAA306-A70B-4912-A561-B06ACE8EDF81}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Slasher\Critter.cpp">
       <Filter>Source\Slasher</Filter>
@@ -76,6 +76,12 @@
       <Filter>Source\Slasher</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Slasher\MainAnimInstance.h">
+      <Filter>Source\Slasher</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Slasher\MainPlayerController.cpp">
+      <Filter>Source\Slasher</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Slasher\MainPlayerController.h">
       <Filter>Source\Slasher</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Slasher\PickUp.cpp">

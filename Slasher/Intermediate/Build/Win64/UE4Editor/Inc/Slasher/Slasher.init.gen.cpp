@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeSlasher_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x0835920E,
-				0x49B61D3B,
+				0x1CAF31DF,
+				0x8D4FCF76,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
