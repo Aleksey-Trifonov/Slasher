@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Slasher.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4445F5C3-000B-4B9C-946E-2C7334912A50}</UniqueIdentifier>
+      <UniqueIdentifier>{FE6F7D38-62BE-4374-ACAB-BE5EEA2E74B8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Slasher.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\Slasher.png" />
     <Filter Include="Config">
-      <UniqueIdentifier>{60682C74-D045-4B21-AA4E-CB19CE5783EE}</UniqueIdentifier>
+      <UniqueIdentifier>{A649421C-AF68-419B-A583-53EF85B9C2EE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultDeviceProfiles.ini">
       <Filter>Config</Filter>
@@ -34,7 +34,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Slasher">
-      <UniqueIdentifier>{7FAAA306-A70B-4912-A561-B06ACE8EDF81}</UniqueIdentifier>
+      <UniqueIdentifier>{365001A0-7B8A-486D-9CBE-DC0EA169A3C2}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Slasher\Critter.cpp">
       <Filter>Source\Slasher</Filter>

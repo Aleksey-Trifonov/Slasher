@@ -3,3 +3,9 @@ D:\Projects\Slasher\Slasher\Source\Slasher\Explosive.h
 D:\Projects\Slasher\Slasher\Source\Slasher\Item.h
 D:\Projects\Slasher\Slasher\Intermediate\Build\Win64\UE4Editor\Inc\Slasher\Item.generated.h
 D:\Projects\Slasher\Slasher\Intermediate\Build\Win64\UE4Editor\Inc\Slasher\Explosive.generated.h
+D:\Projects\Slasher\Slasher\Source\Slasher\Main.h
+C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\Projects\Slasher\Slasher\Intermediate\Build\Win64\UE4Editor\Inc\Slasher\Main.generated.h

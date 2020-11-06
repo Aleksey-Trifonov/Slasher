@@ -32,4 +32,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Movement)
 	class AActor* Actor;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Movement)
+	class AMain* Main;
 };

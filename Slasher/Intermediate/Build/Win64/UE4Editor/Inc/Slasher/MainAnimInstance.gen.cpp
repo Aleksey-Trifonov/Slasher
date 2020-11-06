@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeMainAnimInstance() {}
 	SLASHER_API UClass* Z_Construct_UClass_UMainAnimInstance();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimInstance();
 	UPackage* Z_Construct_UPackage__Script_Slasher();
+	SLASHER_API UClass* Z_Construct_UClass_AMain_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_APawn_NoRegister();
 // End Cross Module References
@@ -71,6 +72,10 @@ void EmptyLinkFunctionForGeneratedCodeMainAnimInstance() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Main_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Main;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Actor_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Actor;
@@ -107,6 +112,13 @@ void EmptyLinkFunctionForGeneratedCodeMainAnimInstance() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMainAnimInstance_Statics::NewProp_Main_MetaData[] = {
+		{ "Category", "Movement" },
+		{ "ModuleRelativePath", "MainAnimInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMainAnimInstance_Statics::NewProp_Main = { "Main", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMainAnimInstance, Main), Z_Construct_UClass_AMain_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMainAnimInstance_Statics::NewProp_Main_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMainAnimInstance_Statics::NewProp_Main_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMainAnimInstance_Statics::NewProp_Actor_MetaData[] = {
 		{ "Category", "Movement" },
 		{ "ModuleRelativePath", "MainAnimInstance.h" },
@@ -139,6 +151,7 @@ void EmptyLinkFunctionForGeneratedCodeMainAnimInstance() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UMainAnimInstance_Statics::NewProp_MovementSpeed = { "MovementSpeed", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMainAnimInstance, MovementSpeed), METADATA_PARAMS(Z_Construct_UClass_UMainAnimInstance_Statics::NewProp_MovementSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMainAnimInstance_Statics::NewProp_MovementSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMainAnimInstance_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainAnimInstance_Statics::NewProp_Main,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainAnimInstance_Statics::NewProp_Actor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainAnimInstance_Statics::NewProp_Pawn,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMainAnimInstance_Statics::NewProp_bIsInAir,
@@ -171,7 +184,7 @@ void EmptyLinkFunctionForGeneratedCodeMainAnimInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMainAnimInstance, 430523657);
+	IMPLEMENT_CLASS(UMainAnimInstance, 3697482815);
 	template<> SLASHER_API UClass* StaticClass<UMainAnimInstance>()
 	{
 		return UMainAnimInstance::StaticClass();

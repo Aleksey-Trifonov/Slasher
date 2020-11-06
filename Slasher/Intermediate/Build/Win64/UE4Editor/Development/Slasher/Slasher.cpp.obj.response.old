@@ -230,6 +230,7 @@
 /I Runtime\Experimental\GeometryCollectionSimulationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
+/I D:\Projects\Slasher\Slasher\Intermediate\Build\Win64\UE4Editor\Inc\Slasher
 /I D:\Projects\Slasher\Slasher\Source
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
